@@ -1,7 +1,7 @@
 library ui_package;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export '';
+export './design/custom_button_normal.dart';
+export './design/custom_navBar.dart';
+export './design/custom_textfeild.dart';
+export './design/custom_textfelid_phone.dart';

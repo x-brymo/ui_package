@@ -1,20 +1,41 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class CustomButtonNormal extends StatelessWidget {
-  double? btnh;
-  double? btnw;
-  String? text;
-  Color? color = Colors.white70 ;
-  void Function()? onTap;
-  CustomButtonNormal({this.btnh, this.text, this.onTap});
-
+  Widget? child;
+  void Function()? tap;
+  double? height;
+  double? width;
+  Color? color;
+  double? radius;
+  EdgeInsetsGeometry? padding;
+  CustomButtonNormal({
+    Key? key,
+    this.child,
+    this.tap,
+    this.height,
+    this.width,
+    this.color,
+    this.radius,
+    this.padding,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 40,
-      width: double.infinity,
-      decoration: BoxDecoration(),
+    return Padding(
+      padding: padding!,
+      child: Container(
+        height: height,
+        width: width,
+        decoration: BoxDecoration(
+          color: color,
+          borderRadius: BorderRadius.circular(radius!),
+        ),
+        child: GestureDetector(
+          onTap: tap,
+          child: child,
+        ),
+      ),
     );
   }
 }
