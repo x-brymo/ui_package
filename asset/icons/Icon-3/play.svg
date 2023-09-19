@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxlinearplay" fill-opacity="1">
+    <path d="M2360 3385L2360 3385L2360 3409L2336 3409L2336 3385L2360 3385Z" id="vuesaxlinearplay" fill="none" stroke="none" />
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="vuesaxlinearplay-(Background)" fill="none" fill-rule="evenodd" stroke="none" />
+    <g id="vuesaxlinearplay">
+      <g id="play">
+        <path d="M4 8.43989C4 4.01989 7.13 2.2099 10.96 4.4199L14.05 6.19989L17.14 7.9799C20.97 10.1899 20.97 13.8099 17.14 16.0199L14.05 17.7999L10.96 19.5799C7.13 21.7899 4 19.9799 4 15.5599L4 11.9999L4 8.43989Z" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M24 0L24 24L0 24L0 0L24 0Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

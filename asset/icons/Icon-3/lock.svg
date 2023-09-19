@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxlinearlock" fill-opacity="1">
+    <path d="M1379 1286L1379 1286L1379 1310L1355 1310L1355 1286L1379 1286Z" id="vuesaxlinearlock" fill="none" stroke="none" />
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="vuesaxlinearlock-(Background)" fill="none" fill-rule="evenodd" stroke="none" />
+    <g id="vuesaxlinearlock">
+      <g id="lock">
+        <path d="M6 10L6 8C6 4.69 7 2 12 2C17 2 18 4.69 18 8L18 10" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M12 18.5C10.6193 18.5 9.5 17.3807 9.5 16C9.5 14.6193 10.6193 13.5 12 13.5C13.3807 13.5 14.5 14.6193 14.5 16C14.5 17.3807 13.3807 18.5 12 18.5Z" id="Vector" fill="none" fill-rule="evenodd" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M7 22C3 22 2 21 2 17L2 15C2 11 3 10 7 10L17 10C21 10 22 11 22 15L22 17C22 21 21 22 17 22L7 22Z" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 24L0 0L24 0L24 24L0 24Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="vuesaxlineararrow-square-left" fill-opacity="1">
+    <path d="M2360 2522L2360 2522L2360 2546L2336 2546L2336 2522L2360 2522Z" id="vuesaxlineararrow-square-left" fill="none" stroke="none" />
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="vuesaxlineararrow-square-left-(Background)" fill="none" fill-rule="evenodd" stroke="none" />
+    <g id="vuesaxlineararrow-square-left">
+      <g id="arrow-square-left">
+        <path d="M15 22C20 22 22 20 22 15L22 9C22 4 20 2 15 2L9 2C4 2 2 4 2 9L2 15C2 20 4 22 9 22L15 22Z" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M13.26 15.53L9.73999 12L13.26 8.46997" id="Vector" fill="none" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M0 24L0 0L24 0L24 24L0 24Z" id="Vector" fill="none" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>
