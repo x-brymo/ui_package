@@ -13,7 +13,7 @@ class AssetsIcons {
   /// asset/icons/icon-3/arrow-right.svg
   static const String iconsIcon3ArrowRight =
       "asset/icons/icon-3/arrow-right.svg";
-
+     
   /// Assets for iconsIcon3ArrowSquareDown
   /// asset/icons/icon-3/arrow-square-down.svg
   static const String iconsIcon3ArrowSquareDown =
