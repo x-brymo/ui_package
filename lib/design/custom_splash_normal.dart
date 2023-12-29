@@ -2,13 +2,11 @@
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
-   String image;
-  Color? color;
-  
-  double? hei;
-  
-  double? wd;
-   SplashScreen({
+  final String image;
+  final Color? color;
+  final double? hei;
+  final double? wd;
+  const SplashScreen({
     Key? key,
     required this.image,
     required this.color,
@@ -20,9 +18,11 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Center(child: Image.asset(image, fit: BoxFit.cover, width:wd,height:hei)),
+        Center(
+            child:
+                Image.asset(image, fit: BoxFit.cover, width: wd, height: hei)),
         CircularProgressIndicator(
-          color:color,
+          color: color,
         )
       ],
     );

@@ -1,7 +1,7 @@
 name: ui_package
 description: A new Flutter package project.
 version: 0.0.1
-homepage: Mahmoud H
+homepage: http://hafezcodx.com
 
 environment:
   sdk: '>=3.0.6 <4.0.0'

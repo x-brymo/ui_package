@@ -2,14 +2,14 @@
 import 'package:flutter/material.dart';
 
 class CustomButtonNormal extends StatelessWidget {
-  Widget? child;
-  void Function()? tap;
-  double? height;
-  double? width;
-  Color? color;
-  double? radius;
-  EdgeInsetsGeometry? padding;
-  CustomButtonNormal({
+  final Widget? child;
+  final void Function()? tap;
+  final double? height;
+  final double? width;
+  final Color? color;
+  final double? radius;
+  final EdgeInsetsGeometry? padding;
+  const CustomButtonNormal({
     Key? key,
     this.child,
     this.tap,

@@ -1,17 +1,15 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:intl_phone_field/phone_number.dart';
 
 class CustomPhone extends StatelessWidget {
-  FutureOr<String?> Function(PhoneNumber?)? valid;
-  String? text;
-  void Function(PhoneNumber)? onChange;
-  Widget? prefixIcon;
-  CustomPhone({
+  final FutureOr<String?> Function(PhoneNumber?)? valid;
+  final String? text;
+  final void Function(PhoneNumber)? onChange;
+  final Widget? prefixIcon;
+  const CustomPhone({
     Key? key,
     this.valid,
     required this.text,

@@ -3,21 +3,20 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomNavBarFourItemOnly extends StatelessWidget {
-  void Function(int)? onTap;
-  int? currentIndex = 0;
-  Color? selectedColor;
-  Color? unSelectedColor;
-  IconData iconNav;
-  String textNav;
+  final void Function(int)? onTap;
+  final int? currentIndex ;
+  final Color? selectedColor;
+  final Color? unSelectedColor;
+  final IconData iconNav;
+  final String textNav;
 
-  CustomNavBarFourItemOnly({
+  const CustomNavBarFourItemOnly({
     Key? key,
-     this.onTap,
-     this.currentIndex,
-     this.selectedColor,
-     this.unSelectedColor,
+    this.onTap,
+    this.selectedColor,
+    this.unSelectedColor,
     required this.iconNav,
-    required this.textNav,
+    required this.textNav, this.currentIndex =0,
   }) : super(key: key);
 
   @override

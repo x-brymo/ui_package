@@ -2,14 +2,14 @@
 import 'package:flutter/material.dart';
 
 class CustomTextFelid extends StatelessWidget {
-  TextEditingController? controller;
-  String? Function(String?)? validator;
-  void Function(String)? onChanged;
-  String? hintTexts;
-  double? h;
-  double? w;
-  Color? colorBorderSide;
-  CustomTextFelid({
+  final TextEditingController? controller;
+  final String? Function(String?)? validator;
+  final void Function(String)? onChanged;
+  final String? hintTexts;
+  final double? h;
+  final double? w;
+  final Color? colorBorderSide;
+  const CustomTextFelid({
     Key? key,
     this.controller,
     this.validator,

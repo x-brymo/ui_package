@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import '../extensions/navigator.dart';
 
 class CustomPublicAppBar extends StatelessWidget {
-  String nameBar;
-  IconData icon;
-  CustomPublicAppBar({
+  final String nameBar;
+  final IconData icon;
+  const CustomPublicAppBar({
     Key? key,
     required this.nameBar,
     required this.icon,
