@@ -8,3 +8,4 @@ export './design/custom_button_normal.dart';
 export './design/custom_navBar.dart';
 export './design/custom_textfeild.dart';
 export './design/custom_textfelid_phone.dart';
+export './Functions/auth/sign_in_google_by_firebase.dart';
