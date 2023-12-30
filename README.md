@@ -11,29 +11,43 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# UI Package
 
-## Features
+<!--[![Pub](https://img.shields.io/pub/v/font_awesome_search.svg)](https://pub.dev/packages/font_awesome_search)-->
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Provide a search function for [ui_package](https://pub.dev/packages/ui_package) package using the same Algolia search engine that powers the FontAwesome Icon Gallery
 
-## Getting started
+This function call graphql API from https://x-brymo/github.com. For more information about the API, please visit
+#
+!! This package doesn't support custom icons yet, you can only search for free icons !!
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Installation
+```yaml
+dependencies:
+  ui_package: 
+  ui_package: any
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+import 'package:ui_package/ui_package.dart';
 ```
 
-## Additional information
+## Important Notice
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+To make this package work you need to disables icon tree shaking. This means unused
+icons will not be automatically removed and thus make the overall app size
+larger. You may need to pass --no-tree-shake-icons to the flutter build command for it
+to complete successfully.
+
+Example:
+
+```
+flutter build apk --no-tree-shake-icons
+```
+flutter pub get
+```
+flutter pub add ui_package
+```
+
