@@ -12,7 +12,7 @@ class GoInto {
   static void goName(BuildContext context, String routeName) {
     Navigator.pushNamed(context, routeName);
   }
-
+  // TODAY : الذكره السنويه للمكتبه
   static void goByRout(BuildContext context, String routeName) {
     Navigator.pushReplacementNamed(context, routeName);
   }

@@ -10,3 +10,4 @@ export './extensions/sizedbox.dart';
 export './extensions/theme.dart';
 export './design/web/footer/footer_view.dart';
 export './Material/icon/icon_app.dart';
+export './Mobile/widget/pdfView.dart';
