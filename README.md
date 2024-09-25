@@ -158,4 +158,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](link_to_li
 
 ## GitHub Contributors
 
-- [Contributor 1](github.com/x-brymo)
+- [Contributor](github.com/x-brymo)
