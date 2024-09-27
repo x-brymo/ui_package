@@ -1,12 +1,12 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=D:\Setup\Flutter\flutter_windows_3.13.6-stable\flutter"
-export "FLUTTER_APPLICATION_PATH=D:\Projects\flutter\ui_package"
+export "FLUTTER_ROOT=D:\Setup\Flutter\flutter_windows_3.19.5-stable\flutter"
+export "FLUTTER_APPLICATION_PATH=E:\New folder\Packages\ui_package"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
-export "FLUTTER_BUILD_NAME=0.0.1"
-export "FLUTTER_BUILD_NUMBER=0.0.1"
+export "FLUTTER_BUILD_NAME=0.3.0"
+export "FLUTTER_BUILD_NUMBER=0.3.0"
 export "DART_OBFUSCATION=false"
 export "TRACK_WIDGET_CREATION=true"
 export "TREE_SHAKE_ICONS=false"
