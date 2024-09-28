@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 
 class GuessMyNumber extends StatefulWidget {
+  const GuessMyNumber({super.key});
+
   @override
   _GuessMyNumberState createState() => _GuessMyNumberState();
 }
@@ -47,23 +49,23 @@ class _GuessMyNumberState extends State<GuessMyNumber> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Guess My Number'),
+        title: const Text('Guess My Number'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('I\'m thinking of a number between 1 and 100.'),
+            const Text('I\'m thinking of a number between 1 and 100.'),
             TextField(
               controller: _controller,
               keyboardType: TextInputType.number,
-              decoration: InputDecoration(hintText: 'Enter your guess'),
+              decoration: const InputDecoration(hintText: 'Enter your guess'),
               onSubmitted: (_) => _guessNumber(),
             ),
             ElevatedButton(
               onPressed: _guessNumber,
-              child: Text('Guess'),
+              child: const Text('Guess'),
             ),
             Text(_message),
           ],
