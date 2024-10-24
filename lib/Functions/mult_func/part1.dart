@@ -7,6 +7,7 @@ import 'package:image_cropper/image_cropper.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 
 import 'package:http/http.dart' as http;
+import 'package:ui_package/extensions/extension_context.dart';
 class MultipleFunc {
 
 Future<void> backupData(Map<String, dynamic> data, String fileName) async {
@@ -158,19 +159,47 @@ Future<CroppedFile?> cropImage(File imageFile) async {
 }
 
 
-void scanQRCode(Function(String) onCodeScanned) {
-  final qrKey = GlobalKey(debugLabel: 'QR');
-  QRViewController? qrController;
+// ToDo < QR Code Scanner >
 
-  qrController?.scannedDataStream.listen((scanData) {
-    onCodeScanned(scanData.code);
-  });
+
+void scanQRCode(Function(String) onCodeScanned, ) {
+  final qrKey = GlobalKey(debugLabel: 'QR');
+  QRViewController? qrController; 
+  
+  Future<void> _onQRViewCreated(QRViewController controller, ) async {
+    qrController = controller;
+    await controller.scannedDataStream
+        .listen((scanData) async => onCodeScanned(scanData.code));
+  }
+   void dialog(BuildContext context) {
+     showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Text('Scan QR Code'),
+        content: SizedBox(
+          width: 300,
+          height: 300,
+          child: QRView(
+            key: qrKey,
+            onQRViewCreated: _onQRViewCreated,
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+        ],
+    );});
 
   // Call `dispose` when the scanner is no longer in use
   qrController?.dispose();
 }
+   }
 
 
+// ToDo < Clipboard >
 void copyToClipboard(String text) {
   Clipboard.setData(ClipboardData(text: text));
 }
@@ -179,6 +208,15 @@ Future<String?> pasteFromClipboard() async {
   ClipboardData? data = await Clipboard.getData('text/plain');
   return data?.text;
 }
+// ToDo < Image Picker >
 
+// Future<File?> pickImage() async {
+//   final image = await ImagePicker().pickImage(source: ImageSource.gallery);
+//   if (image != null) {
+//     return File(image.path);
+//   }
+//   return null;
+// }
+// ToDo < QR Code Scanner >
 
 }
